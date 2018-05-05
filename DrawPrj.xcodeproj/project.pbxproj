@@ -15,6 +15,13 @@
 		2AE66A661DDE022900CAB96C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE66A641DDE022900CAB96C /* LaunchScreen.storyboard */; };
 		2AE66A711DDE022900CAB96C /* DrawPrjTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE66A701DDE022900CAB96C /* DrawPrjTests.m */; };
 		2AE66A7C1DDE022900CAB96C /* DrawPrjUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE66A7B1DDE022900CAB96C /* DrawPrjUITests.m */; };
+		2AE66A941DDFFA8300CAB96C /* UnBlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE66A931DDFFA8300CAB96C /* UnBlockView.m */; };
+		2AE66A9A1DE0076E00CAB96C /* NodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE66A991DE0076E00CAB96C /* NodeView.m */; };
+		2AE66AA61DE0469F00CAB96C /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE66AA51DE0469F00CAB96C /* CanvasViewController.m */; };
+		2AE66AA91DE0471900CAB96C /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE66AA81DE0471900CAB96C /* CanvasView.m */; };
+		2AE66AAC1DE0472600CAB96C /* ToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE66AAB1DE0472600CAB96C /* ToolView.m */; };
+		2AE66AAF1DE0495800CAB96C /* LineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE66AAE1DE0495800CAB96C /* LineModel.m */; };
+		2AE66AB21DE076BE00CAB96C /* ColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE66AB11DE076BE00CAB96C /* ColorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,20 @@
 		2AE66A771DDE022900CAB96C /* DrawPrjUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawPrjUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE66A7B1DDE022900CAB96C /* DrawPrjUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawPrjUITests.m; sourceTree = "<group>"; };
 		2AE66A7D1DDE022900CAB96C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AE66A921DDFFA8300CAB96C /* UnBlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnBlockView.h; sourceTree = "<group>"; };
+		2AE66A931DDFFA8300CAB96C /* UnBlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnBlockView.m; sourceTree = "<group>"; };
+		2AE66A981DE0076E00CAB96C /* NodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeView.h; sourceTree = "<group>"; };
+		2AE66A991DE0076E00CAB96C /* NodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeView.m; sourceTree = "<group>"; };
+		2AE66AA41DE0469F00CAB96C /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
+		2AE66AA51DE0469F00CAB96C /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
+		2AE66AA71DE0471900CAB96C /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		2AE66AA81DE0471900CAB96C /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		2AE66AAA1DE0472600CAB96C /* ToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolView.h; sourceTree = "<group>"; };
+		2AE66AAB1DE0472600CAB96C /* ToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolView.m; sourceTree = "<group>"; };
+		2AE66AAD1DE0495800CAB96C /* LineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineModel.h; sourceTree = "<group>"; };
+		2AE66AAE1DE0495800CAB96C /* LineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineModel.m; sourceTree = "<group>"; };
+		2AE66AB01DE076BE00CAB96C /* ColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorView.h; sourceTree = "<group>"; };
+		2AE66AB11DE076BE00CAB96C /* ColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +122,12 @@
 		2AE66A551DDE022900CAB96C /* DrawPrj */ = {
 			isa = PBXGroup;
 			children = (
+				C465980F1DE28DF0007357E3 /* 锁屏效果实现 */,
+				C465980E1DE28DE6007357E3 /* 绘图板功能 */,
+				2AE66A621DDE022900CAB96C /* Assets.xcassets */,
 				2AE66A591DDE022900CAB96C /* AppDelegate.h */,
 				2AE66A5A1DDE022900CAB96C /* AppDelegate.m */,
-				2AE66A5C1DDE022900CAB96C /* ViewController.h */,
-				2AE66A5D1DDE022900CAB96C /* ViewController.m */,
 				2AE66A5F1DDE022900CAB96C /* Main.storyboard */,
-				2AE66A621DDE022900CAB96C /* Assets.xcassets */,
 				2AE66A641DDE022900CAB96C /* LaunchScreen.storyboard */,
 				2AE66A671DDE022900CAB96C /* Info.plist */,
 				2AE66A561DDE022900CAB96C /* Supporting Files */,
@@ -138,6 +159,36 @@
 				2AE66A7D1DDE022900CAB96C /* Info.plist */,
 			);
 			path = DrawPrjUITests;
+			sourceTree = "<group>";
+		};
+		C465980E1DE28DE6007357E3 /* 绘图板功能 */ = {
+			isa = PBXGroup;
+			children = (
+				2AE66AA41DE0469F00CAB96C /* CanvasViewController.h */,
+				2AE66AA51DE0469F00CAB96C /* CanvasViewController.m */,
+				2AE66AA71DE0471900CAB96C /* CanvasView.h */,
+				2AE66AA81DE0471900CAB96C /* CanvasView.m */,
+				2AE66AAA1DE0472600CAB96C /* ToolView.h */,
+				2AE66AAB1DE0472600CAB96C /* ToolView.m */,
+				2AE66AAD1DE0495800CAB96C /* LineModel.h */,
+				2AE66AAE1DE0495800CAB96C /* LineModel.m */,
+				2AE66AB01DE076BE00CAB96C /* ColorView.h */,
+				2AE66AB11DE076BE00CAB96C /* ColorView.m */,
+			);
+			name = "绘图板功能";
+			sourceTree = "<group>";
+		};
+		C465980F1DE28DF0007357E3 /* 锁屏效果实现 */ = {
+			isa = PBXGroup;
+			children = (
+				2AE66A5C1DDE022900CAB96C /* ViewController.h */,
+				2AE66A5D1DDE022900CAB96C /* ViewController.m */,
+				2AE66A921DDFFA8300CAB96C /* UnBlockView.h */,
+				2AE66A931DDFFA8300CAB96C /* UnBlockView.m */,
+				2AE66A981DE0076E00CAB96C /* NodeView.h */,
+				2AE66A991DE0076E00CAB96C /* NodeView.m */,
+			);
+			name = "锁屏效果实现";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +322,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AE66A5E1DDE022900CAB96C /* ViewController.m in Sources */,
+				2AE66AAC1DE0472600CAB96C /* ToolView.m in Sources */,
+				2AE66A9A1DE0076E00CAB96C /* NodeView.m in Sources */,
+				2AE66AA61DE0469F00CAB96C /* CanvasViewController.m in Sources */,
+				2AE66AAF1DE0495800CAB96C /* LineModel.m in Sources */,
+				2AE66A941DDFFA8300CAB96C /* UnBlockView.m in Sources */,
 				2AE66A5B1DDE022900CAB96C /* AppDelegate.m in Sources */,
+				2AE66AA91DE0471900CAB96C /* CanvasView.m in Sources */,
+				2AE66AB21DE076BE00CAB96C /* ColorView.m in Sources */,
 				2AE66A581DDE022900CAB96C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +556,7 @@
 				2AE66A821DDE022900CAB96C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AE66A831DDE022900CAB96C /* Build configuration list for PBXNativeTarget "DrawPrjTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +565,7 @@
 				2AE66A851DDE022900CAB96C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AE66A861DDE022900CAB96C /* Build configuration list for PBXNativeTarget "DrawPrjUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +574,7 @@
 				2AE66A881DDE022900CAB96C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
