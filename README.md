@@ -1,2 +1,2 @@
 # 1.0版本
-这是一个学习慕课网课程的练习项目，基于Objective-C开发，实现了手势解锁和绘画板的功能。
+A painting APP, with gesture unlock and painting board related functions.
